@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto de tareas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="contenido">
+    <header>
+      <p class="titulo">MIS TAREAS</p>
+    </header>
+    <div class="content-form">
+      <div class="formulario">
+        <form id="datos-formulario">
+          <legend>Agregar tarea</legend>
+          <label>Nombre:</label>
+          <input type="text" id="nombre" placeholder="Nombre tarea" required>
+          <label>Descripcion:</label>
+          <textarea id="descripcion" placeholder="Descripcion de la tarea" required></textarea>
+          <input type="submit" value="Guardar" id="btn-form">
+        </form>
+      </div>
+    </div>
+    <div class="content-tareas">
+      <h1>TAREAS</h1>
+      <div id="lista-tareas">
+        <ul>
+          <!--<li class="tarea">
+            <h2>Titulo</h2> 1<p>Soy un estudiantes muy regular pero aprendo lo que toca</p>
+            <button class="completa">Completa</button>
+            <button class="actualizar">Actualizar</button>
+            <button class="eliminar">Eliminar</button>
+          </li>-->
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+
+</html>
